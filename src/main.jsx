@@ -6,6 +6,7 @@ import Props from './props.jsx'
 
 import'./index.css'
 import BgChanger from './BgChanger.jsx';
+import PasswordSeter from './passwordSeter.jsx';
 let user={
 name:'sidra',
 Domain:'Wd'
@@ -13,8 +14,8 @@ Domain:'Wd'
 let arr=[1,2,3,4,]
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-    <BgChanger/>
+    <PasswordSeter/>
+<BgChanger/>
     {/* <App /> */}
     {/* <Props newonject={user} newarr={arr} age='18'/> */}
     {/* <Props heading='Full stack Development'btntxt='save'/> */}
